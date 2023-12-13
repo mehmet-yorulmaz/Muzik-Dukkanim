@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Kalnia', serif;
+    src: url(https://fonts.googleapis.com/css2?family=Kalnia&display=swap);
+}
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Kalnia', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Header Stili */
+header {
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+.Slogan{
+    font-family: 'Kalnia', sans-serif;
+    color: whitesmoke;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Article Stili */
+article {
+    padding: 20px;
+    text-align: center;
+}
+
+article h1{
+    font-family: 'Kalnia', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+article h2{
+    font-family: 'Kalnia', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Footer Stili */
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive Tasarım */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    .menu ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .menu ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Ürünlerimiz</title>
 </head>
 <body>
     <header>
-        <h1>Ürünlerimiz</h1>
-        <nav class="menu">
+        <h1 class="text-center">Ürünlerimiz</h1>
+        <nav class="menu text-center">
             <ul>
                 <li><a href="index.html">Anasayfa</a></li>
                 <li><a href="products.html">Ürünlerimiz</a></li>
@@ -17,24 +18,54 @@
             </ul>
         </nav>
     </header>
-    <article>
-        <div class="products">
-            <h2>Gitar</h2>
-            <img src="img/Gitar.jpeg" alt="">
-            <p>Fiyat: <b>1000 TL</b></p>
-            <h2>Keman</h2>
-            <img src="img/Keman.jpeg" alt="">
-            <p>Fiyat: <b>1000 TL</b></p>
-            <h2>Piyano</h2>
-            <img src="img/Piyano.jpeg" alt="">
-            <p>Fiyat: <b>1000 TL</b></p>
-            <h2>Bateri</h2>
-            <img src="img/Bateri.jpeg">
-            <p>Fiyat: <b>1000 TL</b></p>
+
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="img/Gitar.jpeg" class="card-img-top" alt="Gitar">
+                    <div class="card-body">
+                        <h5 class="card-title">Gitar</h5>
+                        <p class="card-text">Fiyat: <b>1000 TL</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="img/Keman.jpeg" class="card-img-top" alt="Keman">
+                    <div class="card-body">
+                        <h5 class="card-title">Keman</h5>
+                        <p class="card-text">Fiyat: <b>1000 TL</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="img/Piyano.jpeg" class="card-img-top" alt="Piyano">
+                    <div class="card-body">
+                        <h5 class="card-title">Piyano</h5>
+                        <p class="card-text">Fiyat: <b>1000 TL</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="img/Bateri.jpeg" class="card-img-top" alt="Bateri">
+                    <div class="card-body">
+                        <h5 class="card-title">Bateri</h5>
+                        <p class="card-text">Fiyat: <b>1000 TL</b></p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </article>
-    <footer>
+    </section>
+
+    <footer class="text-center mt-5">
         <p>Patika.dev - Müzik Dükkanım Projesi - Mehmet Yorulmaz ©2023</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
